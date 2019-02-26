@@ -31,11 +31,38 @@ PRIMERS são oligonucleotídeos sintetizados quimicamente com base na sequência
 O primer FORWARD (ou SENSO) é o primer que hibridiza com fita molde sentido 5'-3'. Ou seja, quando é construído, o desenho do primer é em relação à fita molde.
 O primer REVERSE (ou ANTI-SENSO) é aquele primer que hibridiza com a fita molde sentido 3'-5'. Ou seja, quando é construído, o desenho do primer é em relação ao COMPLEMENTO-REVERSO da fita molde.
 
+--------------------------------------------------------------------------------------------
 O desenvolvimento de primers requer que alguns critérios sejam respeitados:
-1-
-2-
-3-
 
+1- O COMPRIMENTO IDEAL DEVE SER ENTRE 17 A 28 PARES DE BASE (pb).
+Primers muito longos são ineficientes na hibridização e quando os primers são muito curtos, perdem especificidade.
+
+2- A COMPOSIÇÃO DE BASES DEVE SER ENTRE 50 A 60% DE G+C.
+As ligações G+C são mais estáveis por conta da estrutura de ambos nucleotídeos. Isto porque, para hibridizarem, necessitam de 3 ligações (ou pontes) de hidrogênio.
+Enquanto as ligações T+A são consideradas fracas e menos estáveis, já que são necessárias 2 ligações (ou pontes) de hidrogênio.
+
+3- PRIMERS DEVEM TERMINAR (3') EM G OU C, OU GC, OU CG.
+Devido as mesmas condições das 3 ligações (ou pontes) de hidrogênio, os primers precisam de maior estabilidade quando sua terminação é composta por G e/ou C.
+
+4- A TEMPERATURA DE MELTING (Tm - temperature of melting) DEVE SER ENTRE 55 A 80°C.
+A Tm é a temperatura em que aproximadamente 50% dos primers estão já hibridizados na fita molde.
+Para definir a Tm, utilizamos a fórmula: Tm = 4(G + C) + 2(A + T) °C
+Essa Tm é importante para determinar a temperatura de hibridização (Ta - temperature of annealing), a qual é a temperatura em que os primers começam a hibridizar na fita molde.
+O valor da Ta é até 5°C abaixo da Tm. E no caso de primers para PCR, por serem pares, essas Tms devem ser compatíveis.
+
+5- TERMINAÇÕES NÃO DEVEM SER COMPLEMENTARES (HAIRPIN).
+Explicar.
+
+6- PRIMERS NÃO DEVEM SER AUTO-COMPLEMENTARES (SELF DIMER).
+Explicar.
+
+7- PRIMERS NÃO DEVEM SER COMPLEMENTARES ENTRE SI (PRIMER DIMER).
+Explicar.
+
+8- PRIMERS NÃO DEVEM TERMINAR COM MAIS DE TRÊS BASES REPETIDAS, ESPECIALMENTE EM CASO DE C OU G.
+Explicar.
+
+--------------------------------------------------------------------------------------------
 Abaixo, há uma parte do genoma referência para o HIV-1, conhecido como HXB2 (Nature. 1985 Jan 24-30;313(6000):277-84).
 A região em questão faz parte do gene pol do HIV-1. Este gene é o responsável pela codificação das enzimas virais protease (PR), transcriptase reversa (RT) e integrase (IN) do HIV-1.
 A atividade proposta é desenhar um par de primers (primer1 = forward | primer2 = reverse) para as regiões PR/RT do HIV-1. A área em vermelho é a região de interesse.
@@ -91,6 +118,7 @@ lista_regiao2_complemento_reverso = "CTAATCCTCATCCTGTCTACTTGCCACACAATCATCACCTGCC
 # mostrar o enunciado com a situação problema e informações para a construção de primers
 print(enunciado)
 
+################ PRIMER 1 ################
 # pedir o desenho do primer1
 primer1 = input('''
 A partir destes conhecimentos, crie o desenho para o primer FORWARD. Atenção! Sempre escrever o primer no sentido 5'-3'.
@@ -103,12 +131,36 @@ encontrar_primer1 = lista_regiao1.find(primer1)
 # determinar o tamanho do primer1
 quantidade_primer1 = len(primer1)
 
-# determinar que o primer1 tem comprimento entre 17 e 28 caracteres
+# determinar se o primer1 termina com G ou C, ou GC, ou CG
+ultimo_primer1 = primer1[-1]
+
+# determinar a composição do primer1
+composicao_c_primer1 = primer1.count("C")
+composicao_g_primer1 = primer1.count("G")
+composicao_t_primer1 = primer1.count("T")
+composicao_a_primer1 = primer1.count("A")
+porcentagem_gc_primer1 = (composicao_c_primer1 + composicao_g_primer1)/quantidade_primer1 * 100
+
+# determinar as temperaturas de melting (Tm) e de hibridização (Ta) do primer1
+temperatura_melting_primer1 = (4*(composicao_c_primer1 + composicao_g_primer1)) + (2*(composicao_a_primer1 + composicao_t_primer1))
+temperatura_min_hibridizacao_primer1 = temperatura_melting_primer1 - 5
+
+# determinar características do primer1 (encontrar_primer1, quantidade_primer1, porcentagem_gc_primer1, ultimo_primer1)
 if quantidade_primer1 != -1 and quantidade_primer1 >= 17 and quantidade_primer1 <= 28 and encontrar_primer1 >= 0:
-   print("Perfeito! O seu primer FORWARD hibridiza perfeitamente com a sequência e cumpre os primeiros critérios de tamanho para um bom primer!")
+   print("O seu primer FORWARD cumpre com o critério de tamanho para um bom primer.")
+if encontrar_primer1 >= 0:
+   print("O primer FORWARD também hibridiza perfeitamente com a sequência.")
+if ultimo_primer1 is "C" or ultimo_primer1 is "G":
+   print("Além disto, o primer FORWARD possui terminação 3' composta por G ou C, ou GC, ou CG.")
+if porcentagem_gc_primer1 >= 50 and porcentagem_gc_primer1 <= 60:
+   print("Ademais, o primer FORWARD contém entre 50 a 60% de G+C.")
+if temperatura_melting_primer1 >= 55 and temperatura_melting_primer1 <= 80:
+   print("E por fim, seu primer FORWARD tem uma temperatura de melting entre 55 e 80°C.")
 else:
    print("Por favor, reveja os critérios para a construção do primer FORWARD.")
 
+
+################ PRIMER 2 ################
 # pedir o desenho do primer2
 primer2 = input('''
 A partir destes conhecimentos, crie o desenho para o primer REVERSE. Atenção! Sempre escrever o primer no sentido 5'-3'.
@@ -121,8 +173,30 @@ encontrar_primer2 = lista_regiao2_complemento_reverso.find(primer2)
 # determinar o tamanho do primer2
 quantidade_primer2 = len(primer2)
 
-# determinar que o primer2 tem comprimento entre 17 e 28 caracteres
+# determinar se o primer2 termina com G ou C, ou GC, ou CG
+ultimo_primer2 = primer2[-1]
+
+# determinar a composição do primer2
+composicao_c_primer2 = primer2.count("C")
+composicao_g_primer2 = primer2.count("G")
+composicao_t_primer2 = primer2.count("T")
+composicao_a_primer2 = primer2.count("A")
+porcentagem_gc_primer2 = (composicao_c_primer2 + composicao_g_primer2)/quantidade_primer2 * 100
+
+# determinar as temperaturas de melting (Tm) e de hibridização (Ta) do primer2
+temperatura_melting_primer2 = (4*(composicao_c_primer2 + composicao_g_primer2)) + (2*(composicao_a_primer2 + composicao_t_primer2))
+temperatura_min_hibridizacao_primer2 = temperatura_melting_primer2 - 5
+
+# determinar características do primer2 (encontrar_primer2, quantidade_primer2, porcentagem_gc_primer2, ultimo_primer2)
 if quantidade_primer2 != -1 and quantidade_primer2 >= 17 and quantidade_primer2 <= 28 and encontrar_primer2 >= 0:
-   print("Perfeito! O seu primer REVERSE hibridiza perfeitamente com a sequência e cumpre os primeiros critérios de tamanho para um bom primer!")
+   print("O seu primer REVERSE cumpre com o critério de tamanho para um bom primer.")
+if encontrar_primer2 >= 0:
+   print("O primer REVERSE também hibridiza perfeitamente com a sequência.")
+if ultimo_primer2 is "C" or ultimo_primer2 is "G":
+   print("Além disto, o primer REVERSE possui terminação 3' composta por G ou C, ou GC, ou CG.")
+if porcentagem_gc_primer2 >= 50 and porcentagem_gc_primer2 <= 60:
+   print("Ademais, o primer REVERSE contém entre 50 a 60% de G+C.")
+if temperatura_melting_primer2 >= 55 and temperatura_melting_primer2 <= 80:
+   print("E por fim, seu primer REVERSE tem uma temperatura de melting entre 55 e 80°C.")
 else:
    print("Por favor, reveja os critérios para a construção do primer REVERSE.")
