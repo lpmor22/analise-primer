@@ -1,0 +1,60 @@
+([('analise-primer.exe',
+   'C:\\Users\\Laise de '
+   'Moraes\\PycharmProjects\\analise-primer\\build\\analise-primer\\analise-primer.exe',
+   'EXECUTABLE'),
+  ('analise-primer.exe.manifest',
+   'C:\\Users\\Laise de '
+   'Moraes\\PycharmProjects\\analise-primer\\build\\analise-primer\\analise-primer.exe.manifest',
+   'BINARY'),
+  ('python37.dll',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\python37.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('_ssl',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('pyexpat',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_hashlib',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_lzma',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_socket',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_bz2',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('unicodedata',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('select',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('libssl-1_1-x64.dll',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\libssl-1_1-x64.dll',
+   'BINARY'),
+  ('libcrypto-1_1-x64.dll',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\libcrypto-1_1-x64.dll',
+   'BINARY'),
+  ('base_library.zip',
+   'C:\\Users\\Laise de '
+   'Moraes\\PycharmProjects\\analise-primer\\build\\analise-primer\\base_library.zip',
+   'DATA')],)
