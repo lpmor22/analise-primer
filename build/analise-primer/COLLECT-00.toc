@@ -1,18 +1,18 @@
 ([('analise-primer.exe',
    'C:\\Users\\Laise de '
-   'Moraes\\Documents\\GitHub\\analise-primer\\build\\analise-primer\\analise-primer.exe',
+   'Moraes\\Downloads\\analise-primer-master\\analise-primer-master\\build\\analise-primer\\analise-primer.exe',
    'EXECUTABLE'),
   ('analise-primer.exe.manifest',
    'C:\\Users\\Laise de '
-   'Moraes\\Documents\\GitHub\\analise-primer\\build\\analise-primer\\analise-primer.exe.manifest',
-   'BINARY'),
-  ('python37.dll',
-   'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\python37.dll',
+   'Moraes\\Downloads\\analise-primer-master\\analise-primer-master\\build\\analise-primer\\analise-primer.exe.manifest',
    'BINARY'),
   ('VCRUNTIME140.dll',
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('python37.dll',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\python37.dll',
    'BINARY'),
   ('_ssl',
    'c:\\users\\laise de '
@@ -30,6 +30,10 @@
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\_hashlib.pyd',
    'EXTENSION'),
+  ('select',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\select.pyd',
+   'EXTENSION'),
   ('_bz2',
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\_bz2.pyd',
@@ -42,19 +46,15 @@
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\_socket.pyd',
    'EXTENSION'),
-  ('select',
-   'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\select.pyd',
-   'EXTENSION'),
-  ('libssl-1_1-x64.dll',
-   'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\libssl-1_1-x64.dll',
-   'BINARY'),
   ('libcrypto-1_1-x64.dll',
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\libcrypto-1_1-x64.dll',
    'BINARY'),
+  ('libssl-1_1-x64.dll',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\libssl-1_1-x64.dll',
+   'BINARY'),
   ('base_library.zip',
    'C:\\Users\\Laise de '
-   'Moraes\\Documents\\GitHub\\analise-primer\\build\\analise-primer\\base_library.zip',
+   'Moraes\\Downloads\\analise-primer-master\\analise-primer-master\\build\\analise-primer\\base_library.zip',
    'DATA')],)

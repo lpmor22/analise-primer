@@ -1,5 +1,5 @@
 ('C:\\Users\\Laise de '
- 'Moraes\\Documents\\GitHub\\analise-primer\\build\\analise-primer\\analise-primer.exe',
+ 'Moraes\\Downloads\\analise-primer-master\\analise-primer-master\\build\\analise-primer\\analise-primer.exe',
  True,
  False,
  True,
@@ -12,7 +12,7 @@
  'analise-primer.pkg',
  [('PYZ-00.pyz',
    'C:\\Users\\Laise de '
-   'Moraes\\Documents\\GitHub\\analise-primer\\build\\analise-primer\\PYZ-00.pyz',
+   'Moraes\\Downloads\\analise-primer-master\\analise-primer-master\\build\\analise-primer\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
    'c:\\users\\laise de '
@@ -36,16 +36,16 @@
    'PYSOURCE'),
   ('analise-primer',
    'C:\\Users\\Laise de '
-   'Moraes\\Documents\\GitHub\\analise-primer\\analise-primer.py',
+   'Moraes\\Downloads\\analise-primer-master\\analise-primer-master\\analise-primer.py',
    'PYSOURCE'),
   ('analise-primer.exe.manifest',
    'C:\\Users\\Laise de '
-   'Moraes\\Documents\\GitHub\\analise-primer\\build\\analise-primer\\analise-primer.exe.manifest',
+   'Moraes\\Downloads\\analise-primer-master\\analise-primer-master\\build\\analise-primer\\analise-primer.exe.manifest',
    'BINARY')],
  [],
  False,
  False,
- 1553471164,
+ 1553782931,
  [('run.exe',
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',

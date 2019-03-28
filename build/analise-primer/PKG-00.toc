@@ -1,5 +1,5 @@
 ('C:\\Users\\Laise de '
- 'Moraes\\Documents\\GitHub\\analise-primer\\build\\analise-primer\\PKG-00.pkg',
+ 'Moraes\\Downloads\\analise-primer-master\\analise-primer-master\\build\\analise-primer\\PKG-00.pkg',
  {'BINARY': 1,
   'DATA': 1,
   'EXECUTABLE': 1,
@@ -9,7 +9,7 @@
   'PYZ': 0},
  [('PYZ-00.pyz',
    'C:\\Users\\Laise de '
-   'Moraes\\Documents\\GitHub\\analise-primer\\build\\analise-primer\\PYZ-00.pyz',
+   'Moraes\\Downloads\\analise-primer-master\\analise-primer-master\\build\\analise-primer\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
    'c:\\users\\laise de '
@@ -33,11 +33,11 @@
    'PYSOURCE'),
   ('analise-primer',
    'C:\\Users\\Laise de '
-   'Moraes\\Documents\\GitHub\\analise-primer\\analise-primer.py',
+   'Moraes\\Downloads\\analise-primer-master\\analise-primer-master\\analise-primer.py',
    'PYSOURCE'),
   ('analise-primer.exe.manifest',
    'C:\\Users\\Laise de '
-   'Moraes\\Documents\\GitHub\\analise-primer\\build\\analise-primer\\analise-primer.exe.manifest',
+   'Moraes\\Downloads\\analise-primer-master\\analise-primer-master\\build\\analise-primer\\analise-primer.exe.manifest',
    'BINARY')],
  True,
  False,

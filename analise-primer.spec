@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['analise-primer.py'],
-             pathex=['C:\\Users\\Laise de Moraes\\Documents\\GitHub\\analise-primer'],
+             pathex=['C:\\Users\\Laise de Moraes\\Downloads\\analise-primer-master\\analise-primer-master'],
              binaries=[],
              datas=[],
              hiddenimports=[],

@@ -1,7 +1,9 @@
 (['C:\\Users\\Laise de '
-  'Moraes\\Documents\\GitHub\\analise-primer\\analise-primer.py'],
- ['C:\\Users\\Laise de Moraes\\Documents\\GitHub\\analise-primer',
-  'C:\\Users\\Laise de Moraes\\Documents\\GitHub\\analise-primer'],
+  'Moraes\\Downloads\\analise-primer-master\\analise-primer-master\\analise-primer.py'],
+ ['C:\\Users\\Laise de '
+  'Moraes\\Downloads\\analise-primer-master\\analise-primer-master',
+  'C:\\Users\\Laise de '
+  'Moraes\\Downloads\\analise-primer-master\\analise-primer-master'],
  ['codecs'],
  [],
  [],
@@ -12,7 +14,7 @@
  '(AMD64)]',
  [('analise-primer',
    'C:\\Users\\Laise de '
-   'Moraes\\Documents\\GitHub\\analise-primer\\analise-primer.py',
+   'Moraes\\Downloads\\analise-primer-master\\analise-primer-master\\analise-primer.py',
    'PYSOURCE')],
  [('ntpath',
    'c:\\users\\laise de '
@@ -30,21 +32,13 @@
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\lib\\stringprep.py',
    'PYMODULE'),
-  ('typing',
+  ('_py_abc',
    'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\typing.py',
+   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\_py_abc.py',
    'PYMODULE'),
-  ('fnmatch',
+  ('tracemalloc',
    'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\fnmatch.py',
-   'PYMODULE'),
-  ('struct',
-   'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\struct.py',
-   'PYMODULE'),
-  ('_compat_pickle',
-   'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\_compat_pickle.py',
+   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\tracemalloc.py',
    'PYMODULE'),
   ('__future__',
    'c:\\users\\laise de '
@@ -217,6 +211,10 @@
   ('tempfile',
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('subprocess',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\subprocess.py',
    'PYMODULE'),
   ('tty',
    'c:\\users\\laise de '
@@ -410,6 +408,10 @@
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\lib\\shutil.py',
    'PYMODULE'),
+  ('selectors',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\selectors.py',
+   'PYMODULE'),
   ('socket',
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\lib\\socket.py',
@@ -442,9 +444,29 @@
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\lib\\string.py',
    'PYMODULE'),
+  ('_threading_local',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('threading',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\threading.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\pickle.py',
+   'PYMODULE'),
   ('logging',
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pprint',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\pprint.py',
    'PYMODULE'),
   ('unittest.case',
    'c:\\users\\laise de '
@@ -453,30 +475,6 @@
   ('unittest.suite',
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\suite.py',
-   'PYMODULE'),
-  ('unittest.loader',
-   'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\loader.py',
-   'PYMODULE'),
-  ('unittest.runner',
-   'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\runner.py',
-   'PYMODULE'),
-  ('unittest.main',
-   'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\main.py',
-   'PYMODULE'),
-  ('unittest.signals',
-   'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\signals.py',
-   'PYMODULE'),
-  ('unittest',
-   'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\__init__.py',
-   'PYMODULE'),
-  ('doctest',
-   'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\doctest.py',
    'PYMODULE'),
   ('stat',
    'c:\\users\\laise de '
@@ -490,29 +488,37 @@
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\lib\\posixpath.py',
    'PYMODULE'),
+  ('fnmatch',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\main.py',
+   'PYMODULE'),
   ('signal',
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\lib\\signal.py',
    'PYMODULE'),
-  ('contextlib',
+  ('unittest.signals',
    'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\contextlib.py',
+   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\signals.py',
    'PYMODULE'),
-  ('_threading_local',
+  ('unittest',
    'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\_threading_local.py',
+   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\__init__.py',
    'PYMODULE'),
-  ('threading',
+  ('struct',
    'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\threading.py',
-   'PYMODULE'),
-  ('selectors',
-   'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\selectors.py',
-   'PYMODULE'),
-  ('subprocess',
-   'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\subprocess.py',
+   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\struct.py',
    'PYMODULE'),
   ('gettext',
    'c:\\users\\laise de '
@@ -526,37 +532,33 @@
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\lib\\argparse.py',
    'PYMODULE'),
-  ('pprint',
+  ('doctest',
    'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\pprint.py',
+   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\doctest.py',
    'PYMODULE'),
-  ('pickle',
+  ('contextlib',
    'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\pickle.py',
+   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\contextlib.py',
    'PYMODULE'),
-  ('tracemalloc',
+  ('typing',
    'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\tracemalloc.py',
+   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\typing.py',
    'PYMODULE'),
   ('copy',
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\lib\\copy.py',
    'PYMODULE'),
-  ('_py_abc',
-   'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\lib\\_py_abc.py',
-   'PYMODULE'),
   ('os',
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\lib\\os.py',
    'PYMODULE')],
- [('python37.dll',
-   'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\python37.dll',
-   'BINARY'),
-  ('VCRUNTIME140.dll',
+ [('VCRUNTIME140.dll',
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('python37.dll',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\python37.dll',
    'BINARY'),
   ('_ssl',
    'c:\\users\\laise de '
@@ -574,6 +576,10 @@
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\_hashlib.pyd',
    'EXTENSION'),
+  ('select',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\select.pyd',
+   'EXTENSION'),
   ('_bz2',
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\_bz2.pyd',
@@ -586,22 +592,18 @@
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\_socket.pyd',
    'EXTENSION'),
-  ('select',
-   'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\select.pyd',
-   'EXTENSION'),
-  ('libssl-1_1-x64.dll',
-   'c:\\users\\laise de '
-   'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\libssl-1_1-x64.dll',
-   'BINARY'),
   ('libcrypto-1_1-x64.dll',
    'c:\\users\\laise de '
    'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\libcrypto-1_1-x64.dll',
+   'BINARY'),
+  ('libssl-1_1-x64.dll',
+   'c:\\users\\laise de '
+   'moraes\\appdata\\local\\programs\\python\\python37\\DLLs\\libssl-1_1-x64.dll',
    'BINARY')],
  [],
  [],
  [('base_library.zip',
    'C:\\Users\\Laise de '
-   'Moraes\\Documents\\GitHub\\analise-primer\\build\\analise-primer\\base_library.zip',
+   'Moraes\\Downloads\\analise-primer-master\\analise-primer-master\\build\\analise-primer\\base_library.zip',
    'DATA')],
  [])
